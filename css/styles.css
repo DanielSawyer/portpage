@@ -22,6 +22,7 @@ hr {
     width: 100%;
     background-color: hsl(0, 0%, 30%);
     border-bottom: 2px solid hsl(69, 21%, 94%);
+    z-index: 1000;
 }
 
 .btn-nav {
@@ -182,4 +183,12 @@ p {
     max-height: 88vh;
     border: 3px solid hsl(217, 49%, 50%);
     border-radius: 35px;
+}
+
+#resume-top{
+    margin-top: 4em;
+}
+
+#experience-top {
+    margin-top: 1.2em;
 }
